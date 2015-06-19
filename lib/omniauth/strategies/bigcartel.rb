@@ -7,8 +7,9 @@ module OmniAuth
 
       option :client_options, { 
         site: 'https://my.bigcartel.com',
-        authorize_url: 'https://my.bigcartel.com/oauth/authorize',
-        access_token_path: '/oauth/token',
+        authorize_path: '/oauth/authorize',
+        request_token_path: '/oauth/token',
+        access_token_path: '/oauth/request_token',
       }
 
       uid { request.params['account_id'] }
