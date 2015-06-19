@@ -10,7 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["mail@citizensinspace.com"]
 
   spec.summary       = "OmniAuth strategy for Bigcartel"
-  spec.homepage      = "https://github.com/citizens/omniauth-bigcartel"
+  spec.homepage      = "http://hipment.com"
+  spec.metadata      = { "documentation" => "https://github.com/citizens/omniauth-bigcartel" }
+
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
