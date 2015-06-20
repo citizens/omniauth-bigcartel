@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "OmniAuth strategy for Bigcartel"
   spec.homepage      = "http://hipment.com"
-  spec.metadata      = { "documentation" => "https://github.com/citizens/omniauth-bigcartel" }
+  spec.metadata      = { "github" => "https://github.com/citizens/omniauth-bigcartel" }
 
   spec.license       = "MIT"
 
